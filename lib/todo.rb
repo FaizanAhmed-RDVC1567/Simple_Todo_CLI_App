@@ -38,7 +38,7 @@ class Todo
     if File.exist?(FILE_PATH)
       JSON.parse(File.read(FILE_PATH), symbolize_names: true)
     else
-      ["a"]
+      []
     end
   end
 end
