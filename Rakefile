@@ -1,5 +1,5 @@
 require "rake"
-require "rspe/core/rake_task"
+require "rspec/core/rake_task"
 
 # Define an RSpec task
 RSpec::Core::RakeTask.new(:spec) do |t|
